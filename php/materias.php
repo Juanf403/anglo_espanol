@@ -20,5 +20,22 @@
 	</div>
 	<h2 class="text-center">Materias</h2>	
 	<div class="m-b-sm"> <div class="btn-group btn-group-justified"> <a href="#" class="btn btn-primary">Español</a> <a href="#" class="btn btn-info">Matematicas</a> <a href="#" class="btn btn-success">Fisica</a> </div> </div>
+	<script>
+	$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on the "Hide" button, I will disappear.</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
 	
 </section>

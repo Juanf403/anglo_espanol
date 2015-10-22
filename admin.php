@@ -31,8 +31,8 @@ if ( isset($_GET['m']) ){
 			$paginaPHP = "php/materias.php";
 		break;
 
-		case "servicios":
-			$paginaPHP = "php/servicios.php";
+		case "seguimientoAcademico":
+			$paginaPHP = "php/seguimientoAcademico.php";
 		break;
 		case "serviciosAgregar":
 			$paginaPHP = "php/serviciosAgregar.php";
@@ -117,6 +117,7 @@ $errorMsg = "";
     <link rel="stylesheet" type="text/css" href="css/admin-forms.css">
 
 <script src="js/app.v1.js"></script>
+<script src="js/listadoAlumnos.js"></script>
 
 <!--[if lt IE 9]>
 <script src="js/ie/html5shiv.js"></script>
@@ -169,7 +170,7 @@ $errorMsg = "";
 												</a> 
 											</li> 
 											<li> 
-												<a href="admin.php?m=servicios"> <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> 
+												<a href="admin.php?m=seguimientoAcademico"> <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> 
 													<span class="pull-right"> <i class="text"></i> <i class="fa fa-angle-up text-active"></i> </span> 
 													<span>Seg. Academico</span> 
 												</a> 
